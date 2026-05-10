@@ -1,0 +1,13 @@
+# Node Modules
+# Ignore node modules
+EJS/node_modules
+express/node_modules
+fs/node_modules
+http-request/node_modules
+middleware/body-parser/node_modules
+middleware/morgan/node_modules
+qr-generator/node_modules
+secrets/node_modules
+silly/node_modules
+
+# Ignore npm debug log
