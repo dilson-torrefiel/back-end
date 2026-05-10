@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name Letters</title>
+  </head>
+
+  <body>
+    <!-- Write your code here -->
+    <form action="/submit" method="POST">
+      <h2>Enter your name:</h2>
+      <% if (locals.fNameLength && locals.lNameLength) { %>
+        <h3>Your first name has <%= locals.fNameLength %> letters.</h3>
+        <h3>Your last name has <%= locals.lNameLength %> letters.</h3>
+      <% } %>
+      <input type="text" name="fName" placeholder="First name" />
+      <input type="text" name="lName" placeholder="Last name" />
+      <input type="submit" value="OK" />
+    </form>
+  </body>
+</html>

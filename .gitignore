@@ -9,5 +9,8 @@ middleware/morgan/node_modules
 qr-generator/node_modules
 secrets/node_modules
 sillyName/node_modules
+ejs-tags/node_modules
+passing-data/node_modules
+ejs-partials/node_modules
 
 # Ignore npm debug log
