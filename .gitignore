@@ -12,5 +12,6 @@ sillyName/node_modules
 ejs-tags/node_modules
 passing-data/node_modules
 ejs-partials/node_modules
+ejs-band-name-generator/node_modules
 
 # Ignore npm debug log
